@@ -1,0 +1,19 @@
+[project]
+name = "dbx-notebook-template"
+version = "0.0.0"
+requires-python = ">=3.10"
+
+# Local-only tooling and libraries for exploratory work.
+# `databricks environments setup-local` (README step 4) adds databricks-connect and pins
+# every package to the versions used by Databricks serverless.
+[dependency-groups]
+dev = [
+    "ipykernel",
+    "nbclient",
+    "nbformat",
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "scipy",
+    "scikit-learn",
+]

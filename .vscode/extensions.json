@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "ms-python.python",
+    "ms-toolsai.jupyter",
+    "databricks.databricks",
+    "andrewgross.databricks-notebook",
+    "anthropic.claude-code"
+  ]
+}

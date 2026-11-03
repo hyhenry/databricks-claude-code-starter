@@ -1,0 +1,12 @@
+# Tells the Databricks VS Code extension (and CLI) which workspace this project uses.
+# Edit the two values below. See README step 3.
+bundle:
+  name: dbx-notebook-template
+
+targets:
+  dev:
+    mode: development
+    default: true
+    workspace:
+      host: https://YOUR-WORKSPACE.cloud.databricks.com   # your workspace URL
+      profile: YOUR-PROFILE                                # name used in `databricks auth login --profile`
